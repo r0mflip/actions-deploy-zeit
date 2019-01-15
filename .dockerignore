@@ -1,0 +1,6 @@
+*
+!src
+!dist
+!now.json
+!package-lock.json
+!package.json

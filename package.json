@@ -1,0 +1,27 @@
+{
+  "name": "zeit-actions",
+  "version": "1.0.0",
+  "description": "testing actions",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -f iife -i src/index.js -o dist/index.js",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dump-yard/zeit-actions.git"
+  },
+  "author": "r0mflip",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dump-yard/zeit-actions/issues"
+  },
+  "homepage": "https://github.com/dump-yard/zeit-actions#readme",
+  "devDependencies": {
+    "rollup": "^1.1.0"
+  },
+  "dependencies": {
+    "hyperhtml": "^2.25.3",
+    "serve": "^10.1.1"
+  }
+}
