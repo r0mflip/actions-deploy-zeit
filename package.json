@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -f iife -i src/index.js -o dist/index.js",
-    "start": "serve"
+    "start": "serve",
+    "now-build": "npm run build"
   },
   "repository": {
     "type": "git",
