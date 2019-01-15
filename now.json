@@ -1,6 +1,6 @@
 {
-    "version": 2,
-    "name": "dump-test",
-    "alias": "dump-test.now.sh",
-    "type": "docker"
+  "version": 2,
+  "name": "dump-test",
+  "alias": "dump-test.now.sh",
+  "type": "docker"
 }
